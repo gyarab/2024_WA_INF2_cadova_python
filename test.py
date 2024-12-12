@@ -12,6 +12,7 @@ n = 3
 fib_number = fibonacci(n)
 print(fib_number)
 
-m = -1
-fib_number = fibonacci(m)
-print(fib_number)
+if __name__ == "__main__":
+    m = -1
+    fib_number = fibonacci(m)
+    print(fib_number)
