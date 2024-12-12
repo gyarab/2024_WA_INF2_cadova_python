@@ -8,9 +8,6 @@ def fibonacci(n):
     return a
 
 # Example usage
-n = 3
-fib_number = fibonacci(n)
-print(fib_number)
 
 
 def is_prime(number):
@@ -27,6 +24,13 @@ def is_prime(number):
     return True
 
 if __name__ == "__main__":
+    n = 3
+    fib_number = fibonacci(n)
+    print(fib_number)
+
     m = -1
     fib_number = fibonacci(m)
     print(fib_number)
+
+    print(is_prime(3))
+    print(is_prime(0.3))
