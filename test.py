@@ -11,7 +11,7 @@ def fibonacci(n):
 
 
 def is_prime(number):
-    if number <= 0:
+    if number <= 0 or not isinstance(number, int):
         raise ValueError("Number must be a natural number")
         
     if number == 1:
