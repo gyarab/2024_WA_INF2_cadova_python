@@ -1,13 +1,17 @@
 print("Hello world!")
 def fibonacci(n):
-    sequence = []
+    if n < 0:
+        raise ValueError("n cannot be negative")
     a, b = 0, 1
-    for i in range(n):
-        sequence.append(a)
+    for _ in range(n):
         a, b = b, a + b   
-    return sequence
+    return a
 
 # Example usage
-n = 8
-fib_sequence = fibonacci(n)
-print(fib_sequence)
+n = 3
+fib_number = fibonacci(n)
+print(fib_number)
+
+m = -1
+fib_number = fibonacci(m)
+print(fib_number)
