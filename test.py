@@ -39,6 +39,17 @@ def primes_in_range(a, b):
         
     return primes
 
+def split_into_three(text):
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string")
+            
+    result = []
+    for i in range(0, len(text), 3):
+        result.append(text[i:i+3])
+            
+    return result
+
+
 if __name__ == "__main__":
     n = 3
     fib_number = fibonacci(n)
@@ -54,3 +65,5 @@ if __name__ == "__main__":
     
     print(primes_in_range(1, 10))
     print(primes_in_range(10, 1))
+
+    print(split_into_three("Hello world!"))
