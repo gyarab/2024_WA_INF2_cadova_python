@@ -55,14 +55,14 @@ def caesar_encode(text):
     
     encoded_text = ""
     for char in text:
-        if char.isalpha():
-            if char.isupper():
-                encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
-            else:
-                encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
-            encoded_text += encoded_char
+        if not char.isalpha():
+            raise ValueError("Input must contain only letters")
+        
+        if char.isupper():
+            encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
         else:
-            encoded_text += char
+            encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
+        encoded_text += encoded_char
     return encoded_text
 
 def caesar_decode(text):
@@ -71,14 +71,14 @@ def caesar_decode(text):
     
     decoded_text = ""
     for char in text:
-        if char.isalpha():
-            if char.isupper():
-                decoded_char = chr((ord(char) - ord('A') - 3) % 26 + ord('A'))
-            else:
-                decoded_char = chr((ord(char) - ord('a') - 3) % 26 + ord('a'))
-            decoded_text += decoded_char
+        if not char.isalpha():
+            raise ValueError("Input must contain only letters")
+        
+        if char.isupper():
+            decoded_char = chr((ord(char) - ord('A') - 3) % 26 + ord('A'))
         else:
-            decoded_text += char
+            decoded_char = chr((ord(char) - ord('a') - 3) % 26 + ord('a'))
+        decoded_text += decoded_char
     return decoded_text
 
 if __name__ == "__main__":
