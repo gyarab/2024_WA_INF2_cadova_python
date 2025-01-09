@@ -27,11 +27,13 @@ def is_prime(number):
     return True
 
 def primes_in_range(a, b):
-    if not isinstance(a, int) or not isinstance(b, int) or a < 0 or b < 0 or a > b:
-        raise ValueError("Invalid input. a and b must be non-negative integers with a <= b")
+    if not isinstance(a, int) or not isinstance(b, int) or a < 0 or b < 0:
+        raise ValueError("Invalid input. a and b must be non-negative integers")
         
     primes = []
-    for num in range(a, b + 1):
+    start = min(a, b)
+    end = max(a, b)
+    for num in range(start, end + 1):
         if is_prime(num):
             primes.append(num)
         
@@ -51,3 +53,4 @@ if __name__ == "__main__":
     print(is_prime(3))
     
     print(primes_in_range(1, 10))
+    print(primes_in_range(10, 1))
