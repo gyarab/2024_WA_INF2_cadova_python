@@ -49,6 +49,37 @@ def split_into_threes(text):
             
     return result
 
+def caesar_encode(text):
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string")
+    
+    encoded_text = ""
+    for char in text:
+        if char.isalpha():
+            if char.isupper():
+                encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
+            else:
+                encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
+            encoded_text += encoded_char
+        else:
+            encoded_text += char
+    return encoded_text
+
+def caesar_decode(text):
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string")
+    
+    decoded_text = ""
+    for char in text:
+        if char.isalpha():
+            if char.isupper():
+                decoded_char = chr((ord(char) - ord('A') - 3) % 26 + ord('A'))
+            else:
+                decoded_char = chr((ord(char) - ord('a') - 3) % 26 + ord('a'))
+            decoded_text += decoded_char
+        else:
+            decoded_text += char
+    return decoded_text
 
 if __name__ == "__main__":
     n = 3
@@ -67,3 +98,7 @@ if __name__ == "__main__":
     print(primes_in_range(10, 1))
 
     print(split_into_threes("Hello world!"))
+
+    text = "Hello world!"
+    print(caesar_encode(text))
+    print(caesar_decode(text))
