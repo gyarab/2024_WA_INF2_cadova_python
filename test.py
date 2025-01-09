@@ -39,7 +39,7 @@ def primes_in_range(a, b):
         
     return primes
 
-def split_into_three(text):
+def split_into_threes(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string")
             
