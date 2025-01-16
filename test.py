@@ -57,7 +57,6 @@ def caesar_encode(text):
     valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .')
     if any(char not in valid_chars for char in text):
         raise ValueError("Invalid character in text")
-        raise ValueError("Invalid character in text")
     encoded_text = ""
     for char in text:
         if char.isalpha():
@@ -78,7 +77,6 @@ def caesar_decode(text):
         raise ValueError("Input must be a string")
     valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .')
     if any(char not in valid_chars for char in text):
-        raise ValueError("Invalid character in text")
         raise ValueError("Invalid character in text")
     decoded_text = ""
     for char in text:
