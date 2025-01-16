@@ -1,3 +1,5 @@
+
+
 print("Hello world!")
 def fibonacci(n):
     if n < 0:
@@ -52,7 +54,10 @@ def split_into_threes(text):
 def caesar_encode(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string")
-    
+    valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .')
+    if any(char not in valid_chars for char in text):
+        raise ValueError("Invalid character in text")
+        raise ValueError("Invalid character in text")
     encoded_text = ""
     for char in text:
         if char.isalpha():
@@ -60,8 +65,10 @@ def caesar_encode(text):
                 encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
             else:
                 encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
-        else:
+        elif char == ' ' or char == '.':
             encoded_char = char
+        else:
+            raise ValueError("Invalid character: " + char)
         encoded_text += encoded_char
     return encoded_text
 
@@ -69,7 +76,10 @@ def caesar_encode(text):
 def caesar_decode(text):
     if not isinstance(text, str):
         raise ValueError("Input must be a string")
-    
+    valid_chars = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .')
+    if any(char not in valid_chars for char in text):
+        raise ValueError("Invalid character in text")
+        raise ValueError("Invalid character in text")
     decoded_text = ""
     for char in text:
         if char.isalpha():
@@ -97,9 +107,8 @@ if __name__ == "__main__":
 
     print(split_into_threes("Hello world!"))
 
-    text = "Hello world!"
+    text = "Hello world."
     encodetext = caesar_encode(text)
     decodetext = caesar_decode(encodetext)
     print(encodetext)
     print(decodetext)
-    print(caesar_encode("až"))
