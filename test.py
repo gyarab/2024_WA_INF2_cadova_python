@@ -55,15 +55,16 @@ def caesar_encode(text):
     
     encoded_text = ""
     for char in text:
-        if not char.isalpha():
-            raise ValueError("Input must contain only letters")
-        
-        if char.isupper():
-            encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
+        if char.isalpha():
+            if char.isupper():
+                encoded_char = chr((ord(char) - ord('A') + 3) % 26 + ord('A'))
+            else:
+                encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
         else:
-            encoded_char = chr((ord(char) - ord('a') + 3) % 26 + ord('a'))
+            encoded_char = char
         encoded_text += encoded_char
     return encoded_text
+
 
 def caesar_decode(text):
     if not isinstance(text, str):
@@ -71,13 +72,13 @@ def caesar_decode(text):
     
     decoded_text = ""
     for char in text:
-        if not char.isalpha():
-            raise ValueError("Input must contain only letters")
-        
-        if char.isupper():
-            decoded_char = chr((ord(char) - ord('A') - 3) % 26 + ord('A'))
+        if char.isalpha():
+            if char.isupper():
+                decoded_char = chr((ord(char) - ord('A') - 3) % 26 + ord('A'))
+            else:
+                decoded_char = chr((ord(char) - ord('a') - 3) % 26 + ord('a'))
         else:
-            decoded_char = chr((ord(char) - ord('a') - 3) % 26 + ord('a'))
+            decoded_char = char
         decoded_text += decoded_char
     return decoded_text
 
@@ -86,10 +87,7 @@ if __name__ == "__main__":
     fib_number = fibonacci(n)
     print(fib_number)
 
-    m = -1
-    fib_number = fibonacci(m)
-    print(is_prime(0.3))
-
+   
     print(fib_number)
 
     print(is_prime(3))
@@ -100,5 +98,8 @@ if __name__ == "__main__":
     print(split_into_threes("Hello world!"))
 
     text = "Hello world!"
-    print(caesar_encode(text))
-    print(caesar_decode(text))
+    encodetext = caesar_encode(text)
+    decodetext = caesar_decode(encodetext)
+    print(encodetext)
+    print(decodetext)
+    print(caesar_encode("až"))
