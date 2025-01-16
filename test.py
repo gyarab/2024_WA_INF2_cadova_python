@@ -90,7 +90,7 @@ def caesar_decode(text):
         decoded_text += decoded_char
     return decoded_text
 
-def text_to_morse(text):
+def morse(text):
     morse_code = {
         'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....',
         'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
@@ -129,4 +129,4 @@ if __name__ == "__main__":
     print(encodetext)
     print(decodetext)
 
-    print(text_to_morse("Ahoj světe!"))
+    print(morse("Ahoj světe!"))
