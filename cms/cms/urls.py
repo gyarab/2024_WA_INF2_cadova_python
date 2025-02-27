@@ -18,10 +18,9 @@ from django.contrib import admin
 from django.urls import path
 import content.views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', content.views.homepage),
-    path('hello/<str:name>/', content.views.hello),
-    path('vynasob/<int:a>/<int:b>', content.views.vynasob),
-    path('articles/', content.views.articles),
+    path('article/<int:id>/', content.views.article),
 ]
