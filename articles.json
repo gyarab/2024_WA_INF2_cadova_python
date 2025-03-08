@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Ghost",
+        "perex": "„Švédská metalová kapela Ghost působí na scéně již od roku 2010. Za tu dobu vydala jedenáct alb, získala cenu Grammy a zahrála si na festivalech po celém světě. Zaměřuje se převážně na satanistická, ale i závažná světová témata.“",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/ec316f8/2147483647/strip/true/crop/4564x3042+383+0/resize/2000x1333!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F72%2Fd7%2F879b8aca4196bc5e8f4bc754acce%2F922844-la-et-ms-swedish-metal-band-ghost-5-brv.jpg",
+        "creation": "2010",
+        "singer": "Tobias Forge",
+        "link": "https://ghost-official.com/",
+        "genre": "metal"
+    },
+    {
+        "title": "Bring me the Horizon",
+        "perex": "Britská metalcorová kapela Bring Me the Horizon vznikla v Sheffieldu v roce 2004. Za tu dobu vydala deset alb a získala několik ocenění. Její frontman Oliver Sykes je známý svým charismatem a energií na pódiu.",
+        "image": "https://cdn-p.smehost.net/sites/5cfaf3980b294dd89a79248f35560b2f/wp-content/uploads/2024/05/BMTHVV11-_MAIN-IMAGE_-scaled.jpg",
+        "creation": "2004",
+        "singer": "Oliver Sykes",
+        "link": "https://www.bmthofficial.com/",
+        "genre": "metalcore"
+    },
+    {
+        "title": "Bad Omens",
+        "perex": "Americká metalcorová kapela Bad Omens vznikla v Richmondu v roce 2015. Za tu dobu vydala čtyři alba a získala si fanoušky po celém světě. Její frontman Noah Sebastian je známý svým hlasem, který dokáže dosáhnout i neuvěřitelných výšek.",
+        "image": "https://summainferno.com/wp-content/uploads/2023/07/badomens.png",
+        "creation": "2015",
+        "singer": "Noah Sebastian",
+        "link": "https://www.badomensofficial.com/",
+        "genre": "metalcore"
+    },
+    {
+        "title": "Battle Beast",
+        "perex": "Finská metalová kapela Battle Beast vznikla v Helsinkách v roce 2008. Za tu dobu vydala šest alb a získala i několik ocenění. Její frontmanka Noora Louhimo, která mimo zpěvu ve skupině působí i jako sólová zpěvačka.",
+        "image": "https://www.mastersofrock.cz/image/catalog/bands/B/battle-beast.jpg?v=2020_04",
+        "creation": "2008",
+        "singer": "Noora Louhimo",
+        "link": "https://battlebeast.fi/home",
+        "genre": "metal"
+    },
+    {
+        "title": "Make them Suffer",
+        "perex": "Australská deathcoreová kapela Make them Suffer vznikla v Perthu v roce 2008. Za tu dobu vydala pět alb a získala si fanoušky nejen v Austrálii, ale i po celém světě. Její frontman Sean Harmanis je v kapele převážne pro deathcoreový zpěv a melodii dodává hlas Alex Reade.",
+        "image": "https://images.squarespace-cdn.com/content/v1/6522859ed74b6e6f6d350faf/35d5159b-18f9-40ec-b93c-6a9d5c2bacef/make-them-suffer.png?format=2500w",
+        "creation": "2008",
+        "singer": "Sean Harmanis",
+        "link": "https://mtsband.com/",
+        "genre": "metalcore"
+    },
+    {
+        "title": "My Chemical Romance",
+        "perex": "Americká rocková kapela My Chemical Romance vznikla v New Jersey v roce 2001. Za tu dobu vydala pět alb a získala si fanoušky po celém světě i přes rozpad kapely v roce 2013. Její frontman Gerard Way založil kapelu jako reakci po útocích na World Trade 11. září 2001.",
+        "image": "https://static.spin.com/files/2019/06/GettyImages-85033606-1560026014.jpg",
+        "creation": "2001",
+        "singer": "Gerard Way",
+        "link": "https://www.mychemicalromance.com/longlive",
+        "genre": "rock"
+    },
+    {
+        "title": "Parkway Drive",
+        "perex": "Australská metalcorová kapela Parkway Drive vznikla v Byron Bay v roce 2003. Za tu dobu vydala sedm alb a získala si fanoušky po celém světě. Její frontman Winston McCall je známý svým charismatem a energií na pódiu.",
+        "image": "https://s1.ticketm.net/dam/a/3d4/806fd505-b871-403a-9838-a53d0a8ac3d4_1553901_RETINA_PORTRAIT_3_2.jpg",
+        "creation": "2003",
+        "singer": "Winston McCall",
+        "link": "https://www.parkwaydriverock.com/",
+        "genre": "metalcore"
+    },
+    {
+        "title": "Sadness",
+        "perex": "Americká post-blackmetalová kapela Sadness vznikla v Oak Park, IL v roce 2014. Za tu dobu vydala neuvěřitelných dvanáct alb a získala si fanoušky po celém světě. Jejím frontmanem je Damián Antón-Ojeda, který původně pochází z mexika. Hudba se abívá velkým množstvím různých témat od lásky až po deprese..",
+        "image": "https://www.metal-archives.com/images/3/5/4/0/3540383572_logo.jpg?0710",
+        "creation": "2014",
+        "singer": "Damián Antón-Ojeda",
+        "link": "https://open.spotify.com/artist/04tDiz6koPFuo5JBZyLgFg",
+        "genre": "blackmetal"
+    },
+    {
+        "title": "Lighthouse Keeper",
+        "perex": "„Česká metalová kapela Lighthouse Keeper vznikla v Praze v roce 2019. Za tu dobu vydala dvě alba a zatím se drží jako méně známá kapela, ale měla i spolupráce s kapelou z Německa. Její frontman Oldřich Kadlec se mimo kapele také věnuje učitelství.“",
+        "image": "https://lighthousekeeperband.com/files/2023/promo_photo03-thumb.jpg",
+        "creation": "2019",
+        "singer": "Oldřich Kadlec",
+        "link": "https://lighthousekeeperband.com/",
+        "genre": "metal"
+    },
+    {
+        "title": "Arctic Monkeys",
+        "perex": "Britská rocková kapela Arctic Monkeys vznikla v Sheffieldu v roce 2002. Za tu dobu vydala sedm alb a získala si fanoušky po celém světě. Její frontman Alex Turner, ktrému bylo 15 let když založil kapelu.",
+        "image": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_rubrikovy_nahled/public/images/62a14448433c51f3fd980977fe453103.jpg",
+        "creation": "2002",
+        "singer": "Alex Turner",
+        "link": "https://arcticmonkeys.com/",
+        "genre": "rock"
+    }
+]
