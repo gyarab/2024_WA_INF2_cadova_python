@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+from .models import Article
+
 import requests
 import json
 
 def homepage(request):
-    with open('articles.json', encoding='utf-8') as f:
-        articles = json.load(f)
+    articles = Article.objects.all()
 
     return render(request, 'content/homepage.html', {'articles': articles})
 
