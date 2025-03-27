@@ -1,7 +1,23 @@
 from django.db import models
 
+class Singer(models.Model):
+    name = models.CharField(max_length=100)
+    birth = models.TextField()
+    image = models.URLField()
+    info = models.TextField()
+    
+    def __str__(self):	
+        return self.name
+    
+class Genre(models.Model):
+    name = models.CharField(max_length=100)
+    info = models.TextField()
+    
+    def __str__(self):	
+        return self.name
+    
 # Create your models here.
-class Article(models.Model):
+class Band(models.Model):
     title = models.CharField(max_length=100)
     perex = models.TextField()
     image = models.URLField()

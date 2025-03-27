@@ -1,6 +1,6 @@
 [
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 1,
         "fields": {
             "title": "Ghost",
@@ -13,7 +13,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 2,
         "fields": {
             "title": "Bring me the Horizon",
@@ -26,7 +26,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 3,
         "fields": {
             "title": "Bad Omens",
@@ -39,7 +39,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 4,
         "fields": {
             "title": "Battle Beast",
@@ -52,7 +52,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 5,
         "fields": {
             "title": "Make them Suffer",
@@ -65,7 +65,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 6,
         "fields": {
             "title": "My Chemical Romance",
@@ -78,7 +78,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 7,
         "fields": {
             "title": "Parkway Drive",
@@ -91,7 +91,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 8,
         "fields": {
             "title": "Sadness",
@@ -100,11 +100,11 @@
             "creation": "2014",
             "singer": "Damián Antón-Ojeda",
             "link": "https://open.spotify.com/artist/04tDiz6koPFuo5JBZyLgFg",
-            "genre": "blackmetal"
+            "genre": "black metal"
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 9,
         "fields": {
             "title": "Lighthouse Keeper",
@@ -117,7 +117,7 @@
         }
     },
     {
-        "model": "content.article",
+        "model": "content.band",
         "pk": 10,
         "fields": {
             "title": "Arctic Monkeys",
