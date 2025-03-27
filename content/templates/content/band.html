@@ -1,0 +1,13 @@
+{% extends "content/base.html" %}
+
+
+{% block header %}
+    {{ band.title }}
+{% endblock %}
+
+{% block main %}
+    <p>{{ band.perex }}</p>
+    <p><a href="/singer/{{ band.singer.id }}">{{ band.singer.name }}</a> {{ band.singer.birth }} </p>
+    <img src="{{ article.image }}" alt="{{ article.title }}">
+    <p><a href="/genre/{{ band.genre.id }}">{{ band.gener.name }}</a></p>>
+{% endblock %}

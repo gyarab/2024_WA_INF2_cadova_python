@@ -2,17 +2,17 @@
 
 
 {% block header %}
-    Kapely zpěváka {{ singer.name }}
+    žánr {{ genre.name }}
 {% endblock %}
 
 
 {% block main %}
     <p>
-        {{ singer.info }}
+        {{ genre }}
     </p>
-    {% for article in author.articles.all %}
+    {% for genre in genre.bands.all %}
         <a href="/band/{{ band.id }}"><h2>{{ band.title }}</h2></a>
-        <p>{{ band.date }}</p>
+        <p><a href="/singer/{{ band.singer.id }}">{{ band.singer.name }}</a> {{ band.singer.birth }} </p>
         <p>{{ band.perex }}</p>
     {% endfor %}
 {% endblock %}
