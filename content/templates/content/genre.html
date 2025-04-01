@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="content\static\content\style.css">
 {% extends "content/base.html" %}
 
 
@@ -13,6 +14,6 @@
     {% for genre in genre.bands.all %}
         <a href="/band/{{ band.id }}"><h2>{{ band.title }}</h2></a>
         <p><a href="/singer/{{ band.singer.id }}">{{ band.singer.name }}</a> {{ band.singer.birth }} </p>
-        <p>{{ band.perex }}</p>
+        <p>{{ band.perex }}</p> <br> <br>
     {% endfor %}
 {% endblock %}

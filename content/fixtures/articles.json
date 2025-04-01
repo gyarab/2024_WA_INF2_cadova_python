@@ -94,6 +94,19 @@
         "model": "content.band",
         "pk": 8,
         "fields": {
+            "title": "Repugnant",
+            "perex": "„Švédská death metalová kapela Repugnant vznikla v roce 1998. Za dobu svého působení vydala jen jedno oficiální album a vzdala hold staré death metalové hudbě. Její frontman Tobias Forge kapelu po deseti letech rozpustil a založil Ghost, která se stala jednou z nejúspěšnějších metalových kapel současnosti.“",
+            "image": "https://64.media.tumblr.com/421667e7c37334149da111c717ea8e98/5d04f251a3ff74e6-96/s1280x1920/bffb827ffa9055e36203f4b3a9e1d0cecdbe6d0f.jpg",
+            "creation": "1998",
+            "singer": "Tobias Forge",
+            "link": "https://open.spotify.com/artist/5TWakwpOctfXseCIG1lQWa?si=McD1iMOhTc-ZwowU5ZMrHg",
+            "genre": "black metal"
+        }
+    },
+    {
+        "model": "content.band",
+        "pk": 8,
+        "fields": {
             "title": "Sadness",
             "perex": "Americká post-blackmetalová kapela Sadness vznikla v Oak Park, IL v roce 2014. Za tu dobu vydala neuvěřitelných dvanáct alb a získala si fanoušky po celém světě. Jejím frontmanem je Damián Antón-Ojeda, který původně pochází z mexika. Hudba se abívá velkým množstvím různých témat od lásky až po deprese..",
             "image": "https://www.metal-archives.com/images/3/5/4/0/3540383572_logo.jpg?0710",
@@ -127,6 +140,151 @@
             "singer": "Alex Turner",
             "link": "https://arcticmonkeys.com/",
             "genre": "rock"
+        }
+    },
+    {
+        "model": "content.band",
+        "pk": 11,
+        "fields": {
+            "title": "The Last Shadow Puppets",
+            "perex": "Britská rocková kapela The Last Shadow Puppets vznikla v roce 2007. Za tu dobu vydala dvě alba a získala si fanoušky po celém světě. Její frontman Alex Turner, který je také frontmanem Arctic Monkeys, se spojil s Milesem Kaneem.",
+            "image": "https://images.radiox.co.uk/images/19393?crop=16_9&width=660&relax=1&format=webp&signature=0zKRTt-P0N55FTst07zY6G1UgUs=",
+            "creation": "2007",
+            "singer": "Alex Turner",
+            "link": "https://open.spotify.com/artist/2Z7UcsdweVlRbAk5wH5fsf",
+            "genre": "rock"
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 1,
+        "fields": {
+            "name": "Tobias Forge",
+            "birth": "3. 3. 1981",
+            "image": "https://cdn-p.smehost.net/sites/2ed48fdcc3904f548299cd86d78e9885/wp-content/uploads/2025/03/Ghosts-Tobias-Forge-1000x515.png",
+            "info": "Tobias Forge je švédský hudebník, skladatel a producent, známý jako frontman kapely Ghost. Narodil se 3. března 1981 ve Švédsku. Jeho hudební kariéra začala v roce 1996 a od té doby se stal jedním z nejvýznamnějších umělců v metalovém žánru. Jeho charakteristický styl zahrnuje kombinaci heavy metalu, rocku a popu, což přispělo k úspěchu kapely Ghost na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 2,
+        "fields": {
+            "name": "Oliver Sykes",
+            "birth": "20. 11. 1986",
+            "image": "https://cdn-p.smehost.net/sites/2ed48fdcc3904f548299cd86d78e9885/wp-content/uploads/2024/05/MS-BMTH-7-1000x515.jpg",
+            "info": "Oliver Sykes je britský hudebník a zpěvák, známý jako frontman kapely Bring Me the Horizon. Narodil se 20. listopadu 1986 v Ashfieldu, Anglie. Jeho hudební kariéra začala v roce 2004 a od té doby se stal jedním z nejvýznamnějších umělců v metalcorovém žánru. Jeho charakteristický styl zahrnuje kombinaci metalcoru, elektroniky a popu, což přispělo k úspěchu kapely Bring Me the Horizon na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 3,
+        "fields": {
+            "name": "Noah Sebastian",
+            "birth": "31. 10. 1995",
+            "image": "https://metalheadzone.com/wp-content/uploads/2023/10/noah-sebastian-of-bad-omens-photoshoot-by-bryan-kirks-wearing-black-tshirt-and-cap-920x613.jpg",
+            "info": "Noah Sebastian je americký hudebník a zpěvák, známý jako frontman kapely Bad Omens. Narodil se 31. října 1995 v Los Angeles, Kalifornie. Jeho hudební kariéra začala v roce 2015 a od té doby se stal jedním z nejvýznamnějších umělců v metalcorovém žánru. Jeho charakteristický styl zahrnuje kombinaci metalcoru, rocku a popu, což přispělo k úspěchu kapely Bad Omens na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 4,
+        "fields": {
+            "name": "Noora Louhimo",
+            "birth": "6. 11. 1988",
+            "image": "https://i.discogs.com/GsTS9BrLfQIQ9xkl6cYNwUMnGEI0lnBDbAuRWvNSVIU/rs:fit/g:sm/q:90/h:350/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MDMw/OTktMTQyMDkwODgx/Mi05MjM3LmpwZWc.jpeg",
+            "info": "Noora Louhimo je finská hudebnice a zpěvačka, mimojiné známá jako frontmanka kapely Battle Beast. Narodila se 6. listopadu 1988 v Helsinkách, Finsko. Její hudební kariéra začala v roce 2008 a od té doby se stala jednou z nejvýznamnějších finských umělkyň v metalovém žánru. Její charakteristický styl zahrnuje kombinaci heavy metalu, symfonického metalu a rocku, což přispělo k úspěchu kapely Battle Beast na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 5,
+        "fields": {
+            "name": "Sean Harmanis",
+            "birth": "unknown",
+            "image": "https://i.discogs.com/jxCQFTFxiVcLKmoXY8AP0tKuI3L6CFwXLeVmPnT3lyM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxMjEx/MTAtMTYxNzk1NTY0/OS04MDgxLmpwZWc.jpeg",
+            "info": "Frontman australské kapely Make Them Suffer, Sean Harmanis, je známý svým charismatem a energií na pódiu. Narodil se v Austrálii a jeho hudební kariéra začala v roce 2008. Jeho charakteristický styl zahrnuje kombinaci deathcoru a melodického zpěvu, což přispělo k úspěchu kapely Make Them Suffer."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 6,
+        "fields": {
+            "name": "Gerard Way",
+            "birth": "9. 4. 1977",
+            "image": "https://www.rollingstone.com/wp-content/uploads/2024/11/gerard-way-2007.jpg?w=1581&h=1054&crop=1",
+            "info": "Gerard Way je americký hudebník, zpěvák a skladatel, známý jako frontman kapely My Chemical Romance. Narodil se 9. dubna 1977 v Newarku, New Jersey. Jeho hudební kariéra začala v roce 2001 a od té doby se stal jedním z nejvýznamnějších umělců v rockovém žánru. Jeho charakteristický styl zahrnuje kombinaci rocku, punku a emo, což přispělo k úspěchu kapely My Chemical Romance na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 7,
+        "fields": {
+            "name": "Winston McCall",
+            "birth": "6. 9. 1981",
+            "image": "https://static.spin.com/files/2023/12/GettyImages-1430168981-1668x1112.jpg",
+            "info": "Australský zpěvák a frontman metalcorové kapely Parkway Drive. Je známý svým agresivním vokálním stylem a energickými vystoupeními. Kapela vznikla v roce 2003 a patří k nejvýznamnějším zástupcům moderního metalcoru."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 8,
+        "fields": {
+            "name": "Damián Antón-Ojeda",
+            "birth": "unknown",
+            "image": "https://www.metal-archives.com/images/4/5/2/3/452384_artist.jpg?1616",
+            "info": "Celkem neznámí autor, který stojí za Sadness o sobě na internetu nikde nemá mnoho informací a i přes úspěh kapely se k ní nehlásí. Mimo Sadness ma i pár osobních alb."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 9,
+        "fields": {
+            "name": "Oldřich Kadlec",
+            "birth": "unknown",
+            "image": "https://www.monstermusic.cz/wp-content/uploads/2019/10/LighthouseKeeper-678x381.jpg",
+            "info": "Oldřich Kadlec působí jako frontman české metalové kapely Lighthouse Keeper. Narodil se v Česku a mio své působení v kapele dlouholetě učí na základní škole."
+        }
+    },
+    {
+        "model": "content.singer",
+        "pk": 10,
+        "fields": {
+            "name": "Alex Turner",
+            "birth": "6. 1. 1986",
+            "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/83B3/production/_127151733_gettyimages-1421579894.jpg.webp",
+            "info": "Alex Turner je britský hudebník a zpěvák, známý jako frontman kapely Arctic Monkeys. Narodil se 6. ledna 1986 v Sheffieldu, Anglie. Jeho hudební kariéra začala v roce 2002 a od té doby se stal jedním z nejvýznamnějších umělců v rockovém žánru. Jeho charakteristický styl zahrnuje kombinaci rocku, indie a alternativního rocku, což přispělo k úspěchu kapely Arctic Monkeys na mezinárodní scéně."
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 1,
+        "fields": {
+            "name": "metal",
+            "info": "Metal je široký žánr hudby, který zahrnuje různé podžánry jako heavy metal, thrash metal, death metal a další. Vyznačuje se silnými kytarovými riffy, intenzivním zpěvem a často temnými nebo agresivními texty."
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 2,
+        "fields": {
+            "name": "metalcore",
+            "info": "Metalcore je podžánr metalu, který kombinuje prvky heavy metalu a hardcore punku. Vyznačuje se agresivními kytarovými riffy, intenzivním zpěvem a často melodickými prvky."
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 3,
+        "fields": {
+            "name": "rock",
+            "info": "Rock je široký žánr hudby, který zahrnuje různé podžánry jako classic rock, punk rock, hard rock a další. Vyznačuje se silnými kytarovými riffy, rytmickou sekcí a často osobními nebo politickými texty."
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 4,
+        "fields": {
+            "name": "black metal",
+            "info": "Black metal je podžánr metalu, který se vyznačuje rychlým tempem, agresivním zpěvem a často temnými nebo okultními texty. Vyznačuje se také specifickým zvukem kytar a produkce."
         }
     }
 ]

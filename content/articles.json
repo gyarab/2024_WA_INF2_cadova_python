@@ -72,6 +72,15 @@
         "genre": "blackmetal"
     },
     {
+        "title": "Repugnant",
+        "perex": "„Švédská death metalová kapela Repugnant vznikla v roce 1998. Za dobu svého působení vydala jen jedno oficiální album a vzdala hold staré death metalové hudbě. Její frontman Tobias Forge kapelu po deseti letech rozpustil a založil Ghost, která se stala jednou z nejúspěšnějších metalových kapel současnosti.“",
+        "image": "https://64.media.tumblr.com/421667e7c37334149da111c717ea8e98/5d04f251a3ff74e6-96/s1280x1920/bffb827ffa9055e36203f4b3a9e1d0cecdbe6d0f.jpg",
+        "creation": "1998",
+        "singer": "Tobias Forge",
+        "link": "https://open.spotify.com/artist/5TWakwpOctfXseCIG1lQWa?si=McD1iMOhTc-ZwowU5ZMrHg",
+        "genre": "black metal"
+    },
+    {
         "title": "Lighthouse Keeper",
         "perex": "„Česká metalová kapela Lighthouse Keeper vznikla v Praze v roce 2019. Za tu dobu vydala dvě alba a zatím se drží jako méně známá kapela, ale měla i spolupráce s kapelou z Německa. Její frontman Oldřich Kadlec se mimo kapele také věnuje učitelství.“",
         "image": "https://lighthousekeeperband.com/files/2023/promo_photo03-thumb.jpg",
@@ -88,5 +97,16 @@
         "singer": "Alex Turner",
         "link": "https://arcticmonkeys.com/",
         "genre": "rock"
+    },
+    {
+        "title": "The Last Shadow Puppets",
+        "perex": "Britská rocková kapela The Last Shadow Puppets vznikla v roce 2007. Za tu dobu vydala dvě alba a získala si fanoušky po celém světě. Její frontman Alex Turner, který je také frontmanem Arctic Monkeys, se spojil s Milesem Kaneem.",
+        "image": "https://images.radiox.co.uk/images/19393?crop=16_9&width=660&relax=1&format=webp&signature=0zKRTt-P0N55FTst07zY6G1UgUs=",
+        "creation": "2007",
+        "singer": "Alex Turner",
+        "link": "https://open.spotify.com/artist/2Z7UcsdweVlRbAk5wH5fsf",
+        "genre": "rock"
     }
+    
 ]
+    

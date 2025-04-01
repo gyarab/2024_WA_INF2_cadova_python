@@ -1,13 +1,14 @@
+<link rel="stylesheet" href="content\static\content\style.css">
 {% extends "content/base.html" %}
 
 
 {% block header %}
-    {{ band.title }}
+    <h1>{{ band.title }}</h1>
 {% endblock %}
 
 {% block main %}
-    <p>{{ band.perex }}</p>
     <p><a href="/singer/{{ band.singer.id }}">{{ band.singer.name }}</a> {{ band.singer.birth }} </p>
-    <img src="{{ article.image }}" alt="{{ article.title }}">
+    <p>{{ band.perex }}</p>
+    <img src="{{ band.image }}" alt="{{ article.title }}">
     <p><a href="/genre/{{ band.genre.id }}">{{ band.gener.name }}</a></p>>
 {% endblock %}
