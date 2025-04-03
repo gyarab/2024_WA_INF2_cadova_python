@@ -22,5 +22,8 @@ import content.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', content.views.homepage),
-    path('article/<int:id>/', content.views.article),
+    path('band/<int:id>/', content.views.band),
+    path('singer/<int:id>/', content.views.singer),
+    path('genre/<int:id>/', content.views.genre),
+    
 ]

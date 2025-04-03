@@ -23,7 +23,7 @@ def genre(request, id):
         genres = json.load(f)
 
     genre = genres[id]
-    return render(request, 'content/article.html', {'article': genre})
+    return render(request, 'content/genre.html', {'genre': genre})
 
 def singer(request, id):    
     with open('articles.json', encoding='utf-8') as f:
