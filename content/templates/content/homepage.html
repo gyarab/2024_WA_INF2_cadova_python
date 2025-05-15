@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="content\static\content\style.css">
+
 {% extends "content/base.html" %}
 
 
@@ -8,6 +8,7 @@
 
 
 {% block main %}
+<link rel="stylesheet" href="content\static\content\style.css">
     {% for band in bands %}
         <a href="/band/{{ forloop.counter0 }}"><h2>{{ band.title }}</h2></a>
         <p>{{ band.perex }}</p>
