@@ -3,7 +3,7 @@ from django.db import models
 class Singer(models.Model):
     name = models.CharField(max_length=100)
     birth = models.TextField()
-    image = models.URLField()
+    image = models.URLField(max_length=500)
     info = models.TextField()
     
     def __str__(self):	
@@ -12,6 +12,7 @@ class Singer(models.Model):
 class Genre(models.Model):
     name = models.CharField(max_length=100)
     info = models.TextField()
+
     
     def __str__(self):	
         return self.name
