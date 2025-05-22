@@ -7,6 +7,55 @@
 {% endblock %}
 
 {% block main %}
+<style>
+        
+    body, h1, h2, h3, p, ul, ol, li, a {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body Styling */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: lightgray;
+        background-color: #333;
+    }
+    
+    /* Header Band */
+    .h1 {
+        background-color: darkgrey;
+        color: #1cdb23;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    /* Content Band */
+    .p {
+        background-color: #333;
+        padding: 20px;
+        margin: 10px auto;
+        max-width: 800px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Links */
+    a {
+        color: #1cdb23;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Image */
+    image {
+        max-height: 200px;
+        width: auto;
+    }
+    </style>
     <p><a href="/singer/{{ band.singer.id }}">{{ band.singer.name }}</a> {{ band.singer.birth }} </p>
     <p>{{ band.perex }}</p>
     <img src="{{ band.image }}" alt="{{ article.title }}">
