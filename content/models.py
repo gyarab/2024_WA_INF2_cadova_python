@@ -21,7 +21,7 @@ class Genre(models.Model):
 class Band(models.Model):
     title = models.CharField(max_length=100)
     perex = models.TextField()
-    image = models.URLField()
+    image = models.URLField(max_length=500)
     creation = models.TextField()
     singer = models.CharField(max_length=100)
     link = models.URLField()
