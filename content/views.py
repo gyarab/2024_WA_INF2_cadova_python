@@ -7,16 +7,18 @@ import requests
 import json
 
 def homepage(request):
-    articles = Band.objects.all()
+    bands = Band.objects.all()
+    genres = Genre.objects.all()
+    singers = Singer.objects.all()
 
-    return render(request, 'content/homepage.html', {'articles': articles})
+    return render(request, 'content/homepage.html', {'bands': bands, 'genres': genres, 'singers': singers})
 
 def band(request, id):
     with open('content/fixtures/bands.json', encoding='utf-8') as f:
         bands = json.load(f)
 
     band = bands[id]
-    return render(request, 'content/article.html', {'article': band})
+    return render(request, 'content/band.html', {'band': band})
 
 def genre(request, id):
     with open('content/fixtures/bands.json', encoding='utf-8') as f:
